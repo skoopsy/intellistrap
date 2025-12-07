@@ -1,4 +1,4 @@
-#include "drivers/uart.h"
+#include "bsp/bsp_usart.h"
 
 int main(void){
     uart_init();

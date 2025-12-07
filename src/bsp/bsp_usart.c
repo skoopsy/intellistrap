@@ -2,7 +2,7 @@
 #include <libopencm3/stm32/gpio.h>
 #include <libopencm3/stm32/usart.h>
 
-#include "drivers/uart.h"
+#include "bsp/bsp_usart.h"
 
 void uart_init(void){
     // Initialise the uart port

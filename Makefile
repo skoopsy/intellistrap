@@ -15,7 +15,7 @@ ARCH_FLAGS = -mthumb -mcpu=cortex-m3
 
 # --- Source files ---
 CFILES = src/main.c
-CFILES += src/drivers/uart.c
+CFILES += src/bsp/bsp_usart.c
 
 # --- Include paths (your own headers) ---
 INCLUDES += -Isrc
